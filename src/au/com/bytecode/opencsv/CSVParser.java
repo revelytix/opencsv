@@ -19,6 +19,7 @@ package au.com.bytecode.opencsv;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.io.Serializable;
 
 /**
  * A very simple CSV parser released under a commercial-friendly license.
@@ -27,7 +28,7 @@ import java.util.List;
  * @author Glen Smith
  * @author Rainer Pruy
  */
-public class CSVParser {
+public class CSVParser implements Serializable {
 
     final char separator;
 
